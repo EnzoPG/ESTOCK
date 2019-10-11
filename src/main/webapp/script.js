@@ -9,4 +9,7 @@ $(document).ready(function() {
       document.getElementById('id_slide').value = 'Nao';
     }
   });
+  
+  $('.datepicker').datetimepicker();
+
 });

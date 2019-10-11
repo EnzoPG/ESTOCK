@@ -2,6 +2,10 @@
 <html>
   <head>
     <link rel="stylesheet" href="./prods.css">
+    <link href='https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+    <link href='//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.2.0/css/datepicker.min.css' rel='stylesheet' type='text/css'>
+    <link href='//cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/1.8/css/bootstrap-switch.css' rel='stylesheet' type='text/css'>
+    <link href='https://davidstutz.github.io/bootstrap-multiselect/css/bootstrap-multiselect.css' rel='stylesheet' type='text/css'>
     <title>DashBoard</title>
   </head>
   <body>
@@ -27,6 +31,11 @@
         <td>${usado}</td>
         <td>${prod_val}</td>
         <td>${prod_desc}</td>
+        <td>
+          <div class='form-group'>
+            <button class='btn-sm btn-success' type='submit'>Vender</button>
+          </div>
+        </td>
       </tr>
     </table>
   </body>
