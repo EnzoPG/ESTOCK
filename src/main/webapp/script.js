@@ -1,6 +1,5 @@
 $(document).ready(function() {
-  // $('.multiselect').multiselect();
-  // $('.datepicker').datepicker();
+
   $('#id_slide').change(function(){
     var checked = $(this).is(':checked');
     if(checked){
@@ -9,7 +8,7 @@ $(document).ready(function() {
       document.getElementById('id_slide').value = 'Nao';
     }
   });
-  
+
   $('.datepicker').datetimepicker();
 
 });
